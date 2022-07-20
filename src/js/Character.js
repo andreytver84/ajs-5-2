@@ -20,7 +20,7 @@ class Character {
   levelUp() {
     if (this.health > 0) {
       this.level++;
-      this.health += 1;
+      this.health = 100;
       this.attack *= 1.2;
       this.defence *= 1.2;
     } else {
